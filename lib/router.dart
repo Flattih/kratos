@@ -13,6 +13,7 @@ Route<dynamic> generateRoute(RouteSettings routeSettings) {
   };
 }
 
+// This class is used to create a custom route transition
 class FadePageRoute<T> extends CupertinoPageRoute<T> {
   FadePageRoute({required super.builder});
 
